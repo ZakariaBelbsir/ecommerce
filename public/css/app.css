@@ -1,0 +1,33 @@
+.name{
+    font-family: 'Macondo Swash Caps', cursive;
+}
+@media (max-width: 1024px) {
+
+#imghome{
+    width: 900px;
+}
+
+}
+
+
+@media (max-width: 767px) {
+#imghome{
+    width: 400px;
+}
+}
+
+
+#searchresult{
+    /*border: 2px solid yellow;*/
+    /*display: none;*/
+    /*background: blue;*/
+    /*overflow: visible;*/
+}
+#searchresult li{
+    list-style-type: none;
+    cursor: default;
+}
+#searchresult li:hover{
+    background: lightgray;
+}
+
